@@ -63,7 +63,7 @@ $(document).ready(function() {
     $("#demo03").animatedModal({
         modalTarget:'teste',
         animatedIn:'bounceInUp',
-        animatedOut:'fadeOutDown',
+        animatedOut:'bounceOutDown',
         color:'#39BEB9',
         animationDuration:'.5s',
         beforeOpen: function() {
