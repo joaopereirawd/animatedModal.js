@@ -191,6 +191,9 @@ button.btn-white {
 	#animation-container {
 		height: 242px;
 	}
+	.project-title {
+		font-size:35px;
+	}
 }
 
 @media (max-width: 400px) {
@@ -200,6 +203,9 @@ button.btn-white {
 	}
 	#animation-container {
 		height: 184px;
+	}
+	.project-title {
+		font-size:25px;
 	}
 
 }
