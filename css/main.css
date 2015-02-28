@@ -1,0 +1,433 @@
+/************************************
+ * Unnecessary for plugin work
+************************************/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family:'Lato';
+
+}
+
+h1 {
+ font-size:50px; 
+ font-weight:900;
+ margin:0px;
+}
+h1.project-title {
+	margin-top:40px;
+}
+h2 {
+ font-weight:900;
+ text-transform:uppercase;
+ margin:0px;
+}
+
+h3 {
+  font-size:25px;
+  font-weight:900;
+  text-transform:uppercase;
+  margin:0px;
+}
+
+h4 {
+ font-weight:900;
+ text-transform:uppercase;
+}
+
+h5 {
+ font-weight:900;
+ text-transform:uppercase;
+}
+
+a.btn {
+	position:relative;
+	width:100px;
+	height:100px;
+	background:#E74B3D;
+	border-radius:50%;
+	line-height:100px;
+	color:#ffF;
+	font-size:25px;
+	text-decoration:none;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:0px;
+	-webkit-transform:scale(1);
+	-moz-transform:scale(1);
+	-o-transform:scale(1);
+	-ms-transform:scale(1);
+	transform:scale(1);
+	/*transition*/
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+a.btn:hover {
+	color:#fff;
+	-webkit-transform:scale(1.1);
+	-ms-transform:scale(1.1);
+	transform:scale(1.1);
+}
+
+svg:hover {
+    fill: #fce57e;
+}
+/************************************
+ * UI 
+************************************/
+button.btn-white {
+	font-family: 'Lato';
+	background: none;
+	border-bottom:0px;
+	border-radius: 0px;
+	font-weight: 900;
+	padding: 10px 0px;
+	outline:none;
+
+}
+.btn-white i {
+	position:relative;
+	left:0px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.btn-white:hover > i {
+	position:relative;
+	left:4px;
+}
+
+.btn-white > i {
+	font-size: 35px;
+	top: 4px;
+	margin-left: 4px;
+	position: relative;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.thumb > img {
+	width:100%;
+}
+
+.btn-black {
+	background:transparent;
+	border:2px solid #333;
+	outline:none;
+	color:#333;
+	padding:15px 25px;
+	font-family:'Lato';
+	margin:20px;
+	font-weight:900;
+	letter-spacing:1.1px;
+	border-radius:5px;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.btn-black:hover {
+	background:transparent;
+	border:2px solid #359491;
+	background:#39BEB9;
+	outline:none;
+	color:#fff;
+}
+
+.btn-black > i {
+	font-size:19px;
+	margin-left:10px;
+}
+
+#am-table >  thead {
+	color: #E74B3D;
+}
+/************************************
+ * Animation Container
+************************************/
+#animation-container {
+	position: relative;
+	max-width: 968px;
+	bottom: -60px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+/*Resize Browser Animation*/
+@media (max-width: 767px) {
+	#browser-container {
+		width:550px;
+		height:auto;
+	}
+}
+@media (max-width: 600px) {
+	#browser-container {
+		width: 450px;
+		height: 273px;
+	}
+	#animation-container {
+		height: 300px;
+	}
+}
+
+@media (max-width: 500px) {
+	#browser-container {
+		width: 350px;
+		height: 212px;
+	}
+	#animation-container {
+		height: 242px;
+	}
+}
+
+@media (max-width: 400px) {
+	#browser-container {
+		width: 250px;
+		height: 152px;
+	}
+	#animation-container {
+		height: 184px;
+	}
+
+}
+/************************************
+ * Helper Classes
+************************************/
+.mt {
+	margin-top:40px;
+}
+
+.mb {
+	margin-bottom:40px;
+}
+
+.number {
+	position: relative;
+	width: 35px;
+	height: 35px;
+	display:inline-block;
+	border-radius: 50%;
+	border: 1px solid #000;
+	text-align: center;
+	line-height:35px;
+	margin-right:10px;
+}
+
+h4.title {
+	height:35px;
+	line-height:35px;
+	margin-bottom:35px;
+}
+/************************************
+ * Close button
+************************************/
+#closebt-container {
+	position: relative;
+	width:100%;
+	text-align:center;
+	margin-top:40px;
+}
+
+.closebt {
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	cursor:pointer;
+}
+
+.closebt:hover {
+	transform:rotate(90deg);
+}
+
+#item > p  {
+	margin:0px;
+	color:#E74B3D;
+}
+/************************************
+ * Sections
+************************************/
+section#section-top  {
+	position:relative;
+	width:100%;
+	max-height:500px;
+	background:#E74B3D;
+	color:#fff;
+	float:left;
+	text-align:center;
+	overflow:hidden;
+}
+
+section#section-default {
+	position:relative;
+	width:100%;
+	min-height:100px;
+	padding:40px 0px 40px 0px;
+	float:left;
+	text-align:center;
+	overflow:hidden;
+}
+section#section-button {
+	position:relative;
+	width:100%;
+	padding: 10px 0px 17px 0px;
+	float:left;
+	text-align:center;
+	overflow:hidden;
+}
+/*Section Colors*/
+section[bgColor='emerald'] { 
+	background:#39BEB9;
+}
+section[bgColor='alazarin'] { 
+	background:#E74B3D;
+}
+section[bgColor='white'] { 
+	background:#fff;
+}
+section[bgColor='whitesmoke'] { 
+	background:#f7f7f7;
+}
+/************************************
+ * Footer
+************************************/
+footer#footer {
+	position:relative;
+	float:left;
+	width:100%;
+	min-height:200px;
+}
+
+#footer-col > p,
+a {
+	color:grey;
+}
+
+#footer-col > p,
+a:hover {
+	text-decoration:none;
+	color:#39BEB9;
+}
+
+div#col-icons {
+	border-right:1px solid #eee;
+}
+
+#footer-sign {
+	padding:25px;
+	font-family:'Lato';
+	text-transform:uppercase;
+}
+
+/************************************
+ * CROSS BROWSER SECTION
+************************************/
+
+@media (min-width: 1200px) {
+	#b-icons > .col-lg-3 {
+	width: 20%;
+	}
+}
+
+@media (min-width: 768px) {
+	#b-icons > .col-lg-3 {
+		width: 25%;
+	}
+}
+
+@media (min-width: 992px) {
+	#b-icons > .col-md-3 {
+		width: 10%;
+	}
+}
+
+@media (min-width: 768px) {
+	#b-icons >  .col-sm-3 {
+		width: 20%;
+	}
+}
+
+
+/************************************
+ * LET'S HELP THE WORLD SECTION
+************************************/
+#icon-share {
+	position:relative;
+	min-height:280px;
+	line-height:280px;
+}
+
+@media (max-width: 767px) {
+	#icon-share {
+		min-height:0px;
+		line-height:0px;
+	}
+}
+
+
+/************************************
+ * Modal Styles
+************************************/
+#modal-container {
+	position:relative;
+	margin-top:100px;
+	overflow:hidden;
+}
+
+
+/************************************
+ * SVG ANIMATIONS
+************************************/
+#browser-container {
+	position:relative;
+	top:500px;
+}
+
+
+#btn-openModal {
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+	opacity:0;
+
+}
+
+
+#cursor{
+	position:relative;
+	top:-100px;
+}
+
+#modal {
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+	opacity:0;
+}
+
+#modal-btn-close {
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+	opacity:0;
+}
+
+#el-01,
+#el-02,
+#el-03  
+{
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+	opacity:0;
+}
