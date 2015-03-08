@@ -1,6 +1,6 @@
 {
-  "name": "animatedmodal.js",
-  "main": "animatedmodal.js",
+  "name": "animatedmodal",
+  "main": "animatedmodal",
   "version": "0.1.0",
   "homepage": "https://github.com/joaopereirawd/animatedModal.js",
   "authors": [
