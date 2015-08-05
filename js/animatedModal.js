@@ -61,7 +61,10 @@
             'overflow-y':settings.overflow,
             'z-index':settings.zIndexOut,
             'opacity':settings.opacityOut,
-            '-webkit-animation-duration':settings.animationDuration
+            '-webkit-animation-duration':settings.animationDuration,
+            '-moz-animation-duration':settings.animationDuration,
+            '-ms-animation-duration':settings.animationDuration,
+            'animation-duration':settings.animationDuration
         };
         //Apply stles
         id.css(initStyles);
@@ -84,6 +87,8 @@
                 };  
             } 
         });
+
+
 
         closeBt.click(function(event) {
             event.preventDefault();
@@ -115,7 +120,3 @@
     }; // End animatedModal.js
 
 }(jQuery));
-
-
-
-        
