@@ -13,7 +13,7 @@
         
         //Defaults
         var settings = $.extend({
-            modalTarget:'animatedModal', 
+            modalTarget: modal.attr('href').replace('#',''), 
             position:'fixed', 
             width:'100%', 
             height:'100%', 
