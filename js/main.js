@@ -36,7 +36,6 @@ $(document).ready(function() {
 
     //demo 02
     $("#demo02").animatedModal({
-        modalTarget:'lightSpeedIn',
         animatedIn:'lightSpeedIn',
         animatedOut:'bounceOutDown',
         color:'#39BEB9',
@@ -61,7 +60,6 @@ $(document).ready(function() {
 
     //demo 03
     $("#demo03").animatedModal({
-        modalTarget:'bounceIn',
         animatedIn:'bounceInUp',
         animatedOut:'bounceOutDown',
         color:'#39BEB9',
