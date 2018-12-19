@@ -61,7 +61,7 @@ $(document).ready(function() {
 
     //demo 03
     $("#demo03").animatedModal({
-        modalTarget:'teste',
+        modalTarget:'bounceIn',
         animatedIn:'bounceInUp',
         animatedOut:'bounceOutDown',
         color:'#39BEB9',
