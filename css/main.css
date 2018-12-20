@@ -502,7 +502,8 @@ div#col-icons {
 	display: block;
     padding: 0px;
     padding-left: 137px;
-    padding-right: 4px;
+	padding-right: 4px;
+	padding-top:10px;
     position: relative;
 	font-size:13px;
   }
