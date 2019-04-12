@@ -222,15 +222,17 @@ button.btn-white {
 }
 
 .number {
-	position: relative;
-	width: 35px;
-	height: 35px;
-	display:inline-block;
-	border-radius: 50%;
-	border: 1px solid #000;
-	text-align: center;
-	line-height:35px;
-	margin-right:10px;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #e64b3d;
+    text-align: center;
+    line-height: 46px;
+    margin-right: 10px;
+    font-weight: 800;
+    color: #e64b3d;
 }
 
 h4.title {
@@ -287,6 +289,13 @@ section#section-default {
 	float:left;
 	text-align:center;
 	overflow:hidden;
+}
+
+section#section-default h3{
+		position:relative;
+		max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 section#section-button {
 	position:relative;
