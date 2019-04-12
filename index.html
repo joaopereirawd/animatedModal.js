@@ -14,6 +14,7 @@
         <meta name="twitter:title" content="animatedModal.js">
         <meta name="twitter:description" content="animatedModal.js is a jQuery plugin to create a fullscreen modal with CSS3 transitions. You can use the transitions from animate.css or create your own transitions.">
         <meta name="twitter:image:src" content="http://joaopereirawd.github.io/animatedModal.js/img/social-thumb.png">
+        
         <!--og api-->
         <meta property="og:title" content="animatedModal.js" />
         <meta property="og:url" content="http://joaopereirawd.github.io/animatedModal.js"/>
@@ -24,6 +25,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
 
         <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
@@ -353,8 +355,9 @@
         </section> 
 
         <section id="section-default" bgColor="emerald" style="color:#fff;">
-            <h3>let's help the world together!</h3>
+            <h3>Let's help the world together!</h3>
             <div  class="col-lg-10 col-lg-offset-1">
+
                 <div id="icon-share" class="col-sm-2 col-md-2 col-lg-2 mt text-center">
                     <a href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=http://joaopereirawd.github.io/animatedModal.js', '_blank', 'width=600,height=500');void(0);">
                         <img class="wow animated zoomIn" data-wow-delay="300ms" src="img/icon_facebook.svg" onmouseover="this.src='img/icon_facebook_hover.svg'" onmouseout="this.src='img/icon_facebook.svg'">
@@ -387,6 +390,29 @@
         <section id="section-button" bgColor="alazarin" style="color:#fff;">
             <a style="color:#fff" href="https://github.com/joaopereirawd/animatedModal.js"><button class="btn btn-lg btn-white">FORK ON GITHUB <i class="fa fa-github"></i></button></a>
         </section>
+
+
+        <section class="section-related-projects">
+            <div class="carousel-wrapper">
+                    <h3>Related Projects</h3>
+                    <div class="rp-carousel">
+                        <div class="rp-item">
+                            <a target="_blank" href="https://cookiebubble.netlify.com/">
+                                <div class="rp-img" style="background-image:url('modules/slick/img/p1.jpg');"></div>
+                                <div class="rp-caption">cookieBubble</div>                                
+                            </a>
+                        </div>
+                        <div class="rp-item">
+                            <a target="_blank" href="https://joaopereirawd.github.io/fakeLoader.js/">
+                                <div class="rp-img" style="background-image:url('modules/slick/img/p2.jpg');"></div>
+                                <div class="rp-caption">fakeLoader.js</div>                            
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+
 
         <footer id="footer" bgColor="white" >
             <div class="container text-center mt mb">
@@ -466,6 +492,7 @@
         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/animatedModal.min.js"></script>
         <script src="js/main.js"></script>

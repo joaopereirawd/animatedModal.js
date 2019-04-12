@@ -1,6 +1,7 @@
 /************************************
  * Unnecessary for plugin work
 ************************************/
+@import '../modules/slick/css/slider.css';
 h1,
 h2,
 h3,
@@ -553,4 +554,8 @@ div#col-icons {
 	  display: block;
 	  width: 100%;
 	}
-  }
+	
+	
+
+
+	

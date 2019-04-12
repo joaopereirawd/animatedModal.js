@@ -340,3 +340,35 @@ $(document).ready(function() {
         );
         wow.init();
 });
+
+
+/*=========================================
+ * Related Projects
+=========================================*/
+$(document).ready(function () {
+  $('.rp-carousel').slick({
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    infinite: true,
+    responsive: [
+      {
+        breakpoint: 820,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          dots:true,
+          arrows:false
+        }
+      },
+      {
+        breakpoint: 543,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true,
+          arrows: false
+        }
+      }
+    ]
+  });
+});
